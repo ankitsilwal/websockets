@@ -4,7 +4,7 @@ import { MyGateway } from "./gateway";
 
 @Module({
     providers:[MyGateway]
-    // providers:[Websocket]gtg
+    // providers:[Websocket]
 })
 
 
