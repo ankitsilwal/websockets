@@ -6,7 +6,7 @@ export class WebSocketClient implements OnModuleInit {
   public socketClient: Socket;
 
   constructor() {
-    this.socketClient = io("http://localhost:3000");
+    this.socketClient = io("http://localhost:3002");
   }
 
   // onModuleInit() {
